@@ -1,0 +1,15 @@
+
+public class PrimeiroExercicio {
+
+	public static void main(String[] args) {
+		double Numero_1 = 50.25;
+		double Numero_2 = 49.75; 
+		
+		
+		
+		
+		System.out.println(numero_1 + numero_2);
+
+	}
+
+}
