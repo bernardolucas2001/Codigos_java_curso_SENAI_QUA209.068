@@ -11,14 +11,12 @@ public class PrimeiroExercicio {
 		boolean Honesto = true;
 		boolean Desonesto = false;
 		
-		char sexo = 'M';
 		
 		
-		
-		System.out.println("A soma é igual a " +(Numero_1 + Numero_2));
+		System.out.println("Asoma é igual a " +(Numero_1 + Numero_2));
 		System.out.println("Meu nome completo é " + Nome + " " + Sobrenome);
 		System.out.println("Voce é Honesto? Se sim, o resultado é " + Honesto + " Se não, resultado é  " + Desonesto);
-		System.out.println("Meu sexo: " + sexo);
+		
 
 	}
 
