@@ -13,7 +13,7 @@ public class PrimeiroExercicio {
 		
 		
 		
-		System.out.println(Numero_1 + Numero_2);
+		System.out.println("A soma é igual a " +(Numero_1 + Numero_2));
 		System.out.println("Meu nome completo é " + Nome + " " + Sobrenome);
 		System.out.println("Voce é Honesto? Se sim, o resultado é " + Honesto + " Se não, resultado é  " + Desonesto);
 		
