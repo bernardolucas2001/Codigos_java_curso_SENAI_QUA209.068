@@ -3,7 +3,7 @@ package principal;
 import java.util.Scanner;
 
 public class EntradadeDados {
-
+//leitura.nextLine() é o comado usado quando ocorre um problema quando ler um dado do tipo inteiro antes da leitura de um dado do tipo String.
 	public static void main(String[] args) {
 		Scanner leitura = new Scanner(System.in);
 		//final double PI = 3.1415;
