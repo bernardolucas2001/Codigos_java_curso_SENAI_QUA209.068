@@ -12,14 +12,18 @@ public class Maisde3 {
 		double numero2 = leu.nextDouble();
 		System.out.print("Digite outro número: ");
 		double numero3 = leu.nextDouble();
-		double comparacao = 0;
+		
 		leu.close();
 		
-		comparacao = Math.max(numero1, numero2);
-		comparacao = Math.max(numero1, numero3);
-		comparacao = Math.max(numero2, numero3);
+		if(numero1>numero2 && numero2>numero3) {
+			System.out.println("O maior dos 3 números é " + numero1);
+		} else if (numero3>numero2 && numero3>numero1) {
+			System.out.println("O maior dos 3 números é " + numero3);
+		} else {
+			System.out.println("O maior dos 3 números é " + numero2);
+		}
 		
-		System.out.println("O maior dos 3 números é " + comparacao);
+	
 		
 		
 		
