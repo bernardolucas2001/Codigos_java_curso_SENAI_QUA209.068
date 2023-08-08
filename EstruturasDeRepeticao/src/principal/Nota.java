@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Nota {
 
 	public static void main(String[] args) {
+		//Programa pede que o usuario digite uma nota entre 0 e 10. 
+		//Caso o usuario digite uma nota invalida, o sistema mostra uma mensagem de nota invalida e pede novamente ate que uma nota valida seja digitada.
 		Scanner leu = new Scanner(System.in);
 		
 		System.out.println("Digite sua nota de 0 a 10 aqui: ");
