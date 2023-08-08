@@ -11,6 +11,7 @@ public class Operadores {
 		 * operador '%' para resto da divisão
 		 */ 
 		
+		// aula para informar os operadores aritmeticos
 		int Numero1, Numero2, soma, divisao, multiplicacao, subtracao, resto, calculo;
 		
 		Numero1 = 10;
