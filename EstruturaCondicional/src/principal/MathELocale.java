@@ -1,5 +1,5 @@
 package principal;
-
+import java.util.Scanner;
 import java.util.Locale;
 import java.util.Scanner;
 // arquivo utilizado para explicar as bibliotecas Math e Locale
