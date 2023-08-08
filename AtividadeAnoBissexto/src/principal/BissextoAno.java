@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BissextoAno {
 
 	public static void main(String[] args) {
-		//O USUARIO ENTRA COM UM ANO E O PROGRAMA DIZ SE ELE É BISSEXTO OU NÃO.
+		//Entrada com algum ano e o programa responde se o ano é bissexto ou não.
 		
 		Scanner lendo = new Scanner(System.in);
 		System.out.println("Digite um ano: ");
