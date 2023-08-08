@@ -1,15 +1,8 @@
 INDEX VERSION 1.131+C:\Users\Aluno Tarde\Desktop\Lógica_programação_java\.metadata\.plugins\org.eclipse.jdt.core
-842560805.index
-1456898477.index
-1865797976.index
-3806395143.index
-91424206.index
 490256774.index
-1092760145.index
 3106088363.index
+3477142858.index
 3498988007.index
-1866167541.index
-2405561010.index
-1662734512.index
-70389387.index
-537845404.index
+3806395143.index
+2367783050.index
+1865797976.index
