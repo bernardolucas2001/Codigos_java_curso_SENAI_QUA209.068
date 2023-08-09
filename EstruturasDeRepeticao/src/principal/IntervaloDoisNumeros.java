@@ -17,7 +17,7 @@ public class IntervaloDoisNumeros {
 		numero2 = lendo.nextInt();
 		
 		
-		for(int i=numero1;i<=numero2;i++){
+		for(int i=numero1 +1;i<numero2;i++){
 		   soma = i;
 		   System.out.println(soma);
 		} 
