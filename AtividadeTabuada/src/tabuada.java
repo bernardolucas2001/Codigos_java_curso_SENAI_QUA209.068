@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class tabuada {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// O Programa recebe um número e um operador e imprime na tela a tabuada daquele número conforme o operador aritmetico escolhido.
 		Scanner vendo = new Scanner(System.in);
 		int resultado;
 		int contador = 1;
@@ -16,18 +16,16 @@ public class tabuada {
 		if (operador.equals("+")) {
 			
 			while(contador <= 10) {
-				resultado = numero;
-				System.out.println(resultado);
-				numero++;
+				numero = numero + 1;
+				System.out.println(numero);
 				contador++;
 			}
 			
 			
 		} else if (operador.equals("-")) {
 			while(contador <= 10) {
-				resultado = numero;
-				System.out.println(resultado);
-				numero--;
+				numero = numero - 1;
+				System.out.println(numero);
 				contador++;
 				
 			}
@@ -37,12 +35,13 @@ public class tabuada {
 				resultado = numero*contador;
 				System.out.println(resultado);
 				contador++;
+	
 			}
 		}
 		else if (operador.equals("/")) {
 			while(contador <= 10) {
-				resultado = numero/contador;
-				System.out.println(resultado);
+				numero = numero/contador;
+				System.out.println(numero);
 				contador++;
 			}
 		} else {
