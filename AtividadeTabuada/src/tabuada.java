@@ -24,7 +24,7 @@ public class tabuada {
 			
 		} else if (operador.equals("-")) {
 			while(contador <= 10) {
-				numero = numero - 1;
+				numero = (numero+contador) - numero;
 				System.out.println(numero);
 				contador++;
 				
@@ -40,7 +40,7 @@ public class tabuada {
 		}
 		else if (operador.equals("/")) {
 			while(contador <= 10) {
-				numero = numero/contador;
+				numero = (numero*contador)/numero;
 				System.out.println(numero);
 				contador++;
 			}
