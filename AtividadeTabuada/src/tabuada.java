@@ -16,16 +16,16 @@ public class tabuada {
 		if (operador.equals("+")) {
 			
 			while(contador <= 10) {
-				numero = numero + 1;
-				System.out.println(numero);
+				resultado = contador+numero;
+				System.out.println("numero " + numero + " + " + contador + " = " + (resultado));
 				contador++;
 			}
 			
 			
 		} else if (operador.equals("-")) {
 			while(contador <= 10) {
-				numero = (numero+contador) - numero;
-				System.out.println(numero);
+				resultado= (numero+contador) - numero;
+				System.out.println("Número " + (numero+contador) + " - " + "Número " + numero + " = " + resultado);
 				contador++;
 				
 			}
@@ -33,15 +33,15 @@ public class tabuada {
 		else if (operador.equals("*")) {
 			while(contador <= 10) {
 				resultado = numero*contador;
-				System.out.println(resultado);
+				System.out.println("Número " + numero + " * " + "Número " + contador + " = " + resultado);
 				contador++;
 	
 			}
 		}
 		else if (operador.equals("/")) {
 			while(contador <= 10) {
-				numero = (numero*contador)/numero;
-				System.out.println(numero);
+				resultado = (numero*contador)/numero;
+				System.out.println("Número " + (numero*contador) + " / " + "Número " + numero+ " = " + resultado);
 				contador++;
 			}
 		} else {

@@ -9,7 +9,7 @@ public class Altura {
 		Scanner ler = new Scanner(System.in);
 		double altura = 0;
 		double media = 0;
-		double pessoa = 0;
+		
 		
 		
 		
