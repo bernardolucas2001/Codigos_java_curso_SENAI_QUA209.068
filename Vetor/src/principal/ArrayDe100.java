@@ -3,7 +3,7 @@ package principal;
 public class ArrayDe100 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// O Programa mostra o indice de um array de 100 posições.
 		
 		int[] array = new int[100];
 		

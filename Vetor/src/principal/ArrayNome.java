@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArrayNome {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub 
+		// Programa recebe uma quantidade x de nomes e imprime os nuimeros recebidos(que o usuario digitou). 
 		Scanner scan = new Scanner(System.in);
 		
 		
