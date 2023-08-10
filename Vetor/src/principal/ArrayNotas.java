@@ -17,7 +17,7 @@ public class ArrayNotas {
 			media += notas[contador];
 			
 		}
-		System.out.println("Media = " + media/4);
+		System.out.printf("Media = %.2f ", (media/4));
 		
 		if((media/4) < 7) {
 			System.out.println("Reprovado!");
