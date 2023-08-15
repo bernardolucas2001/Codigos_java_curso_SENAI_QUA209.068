@@ -55,7 +55,7 @@ bonificações não devem ter descontos sobre a bonificação, indicando o mês de ref
 			System.out.println("Bonificações = " + bonificacao);
 			System.out.println("Total a receber = " +(desconto(salario)+bonificacao));
 			
-		} else if(vendas <= 15000 && vendas > 10000) {
+		} else if(vendas <= 15000 && vendas >= 10000) {
 			double bonificacao = (vendas*1.01) - vendas;
 			System.out.println("contracheque do mês " + mes);
 			System.out.println("Salario BRUTO(SEM DESCONTOS): " + salario);
