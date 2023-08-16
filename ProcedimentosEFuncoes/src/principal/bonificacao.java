@@ -36,43 +36,22 @@ bonificações não devem ter descontos sobre a bonificação, indicando o mês de ref
 		System.out.print("Digite a quantidade de vendas do mes atual: ");
 		double vendas = sc.nextDouble();
 		
+		System.out.println("********************************");
+		System.out.println("contracheque do mês de " + mes);
+		System.out.println("Salario BRUTO(SEM DESCONTOS): " + salario);
+		System.out.println("salario Líquido( com desconto de INSS e IRPF): " + desconto(salario));
+		System.out.println("Descontos = " + (salario - desconto(salario)));
+		System.out.println("Bonificações = " + comissao(vendas));
+		System.out.println("Total a receber(Sálario Líquido + Bonificações/comissão(se tiver)=  " +(desconto(salario)+comissao(vendas))); 
 		
-		
-	
-		
-		if(vendas > 20000) {
-			double bonificacao = (vendas*1.05)- vendas;
-			System.out.println("contracheque do mês: " + mes);
-			System.out.println("Salario BRUTO(SEM DESCONTOS): " + salario);
-			System.out.println("salario final( com desconto de INSS e IRPF): " + desconto(salario));
-			System.out.println("Bonificações = " + bonificacao);
-			System.out.println("Total a receber = " +(desconto(salario)+bonificacao));
-		} else if(vendas <= 20000 && vendas > 15000) {
-			double bonificacao =(vendas*1.03) - vendas;
-			System.out.println("contracheque do mês " + mes);
-			System.out.println("Salario BRUTO(SEM DESCONTOS): " + salario);
-			System.out.println("salario final( com desconto de INSS e IRPF): " + desconto(salario));
-			System.out.println("Bonificações = " + bonificacao);
-			System.out.println("Total a receber = " +(desconto(salario)+bonificacao));
-			
-		} else if(vendas <= 15000 && vendas >= 10000) {
-			double bonificacao = (vendas*1.01) - vendas;
-			System.out.println("contracheque do mês " + mes);
-			System.out.println("Salario BRUTO(SEM DESCONTOS): " + salario);
-			System.out.println("salario final( com desconto de INSS e IRPF): " + desconto(salario));
-			System.out.println("Bonificações = " + bonificacao);
-			System.out.println("Total a receber = " +(desconto(salario)+bonificacao));
-		} else {
-			
-			System.out.println("contracheque do mês " + mes);
-			System.out.println("Salario BRUTO(SEM DESCONTOS): " + salario);
-			System.out.println("salario final( com desconto de INSS e IRPF): " + desconto(salario));
-			System.out.println("Total a receber = " +(desconto(salario)));
+		if(vendas<10000) {
 			System.out.println(" Frase Motivacional: Quando você tiver finalizado uma meta, não olhe para ela como a linha de chegada;"
 					+ " olhe para ela como o ponto de partida para sua próxima conquista"
 					+ ".A vida é uma maratona sem fim. Não fique ocioso por muito tempo;"
 					+ " em vez disso, concentre-se no próximo ponto do marcador.");
 		}
+		System.out.println("********************************");
+	
 		
 		sc.close();
 		
@@ -91,5 +70,21 @@ bonificações não devem ter descontos sobre a bonificação, indicando o mês de ref
 		double salarioFinal = salario -(descontoInss + descontoIrpf);
 		return salarioFinal;
 	}
+	static double comissao(double vendas) {
+		double bonificacao = 0;
+		if(vendas > 20000) {
+			 bonificacao = (vendas*0.05);
+		}  else if(vendas <= 20000 && vendas > 15000) {
+			 bonificacao =vendas*0.03 ;
+		} else if(vendas <= 15000 && vendas >= 10000) {
+			bonificacao = vendas*0.01 ;
+		} else { 
+			 bonificacao = 0;
+			 
+		} 
+		return bonificacao;
+		
+	}
+	
 
 }
