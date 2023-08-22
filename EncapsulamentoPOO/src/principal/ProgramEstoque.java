@@ -26,6 +26,11 @@ public class ProgramEstoque {
 		leu.close();
 		
 		estoque.imprimirDados();
+		
+		estoque.adicionarQuantidade(10);
+		estoque.removendoQuantidade(5);
+		
+		estoque.imprimirDados();
 	}
 	
 	

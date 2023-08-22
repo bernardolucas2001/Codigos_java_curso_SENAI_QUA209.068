@@ -26,10 +26,10 @@ public class Estoque {
 		return preco*quantidade;
 	}
 	public double adicionarQuantidade(double adicionando) {
-		return quantidade+adicionando;
+		return quantidade = quantidade+adicionando;
 	}
 	public double removendoQuantidade(double removendo) {
-		return quantidade-removendo;
+		return quantidade = quantidade-removendo;
 	}
 	
 
