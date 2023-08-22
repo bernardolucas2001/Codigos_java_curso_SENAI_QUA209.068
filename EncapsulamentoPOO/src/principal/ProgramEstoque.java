@@ -27,8 +27,8 @@ public class ProgramEstoque {
 		
 		estoque.imprimirDados();
 		
-		estoque.adicionarQuantidade(10);
-		estoque.removendoQuantidade(5);
+		//estoque.adicionarQuantidade(10);Exemplo de Adição da quantidade de estoque
+		//estoque.removendoQuantidade(5); Exemplo de Remoção da quantidade de estoque
 		
 		estoque.imprimirDados();
 	}
