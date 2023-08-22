@@ -2,12 +2,15 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="entities.Carro"/>
     <fullyQualifiedTypeName name="entities.AreaTerreno"/>
     <fullyQualifiedTypeName name="entities.NomeEIdade"/>
     <fullyQualifiedTypeName name="entities.EquacaoSegundoGrau"/>
     <fullyQualifiedTypeName name="entities.IdentificarTriangulo"/>
     <fullyQualifiedTypeName name="entities.Pagamento"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.ProgramTelevisor"/>
+    <fullyQualifiedTypeName name="entities.Pessoa"/>
+    <fullyQualifiedTypeName name="entities.Carro"/>
+    <fullyQualifiedTypeName name="entities.Estoque"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="entities.Usuario"/>
 </qualifiedTypeNameHistroy>

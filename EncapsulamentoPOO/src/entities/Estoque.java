@@ -25,12 +25,20 @@ public class Estoque {
 	public double valorTotal() {
 		return preco*quantidade;
 	}
+	public double adicionarQuantidade(double adicionando) {
+		return quantidade+adicionando;
+	}
+	public double removendoQuantidade(double removendo) {
+		return quantidade-removendo;
+	}
 	
 
 	
 	public void imprimirDados() {
-		System.out.println("O produto " + getProduto() + " possui o preço unitario " + getPreco() + " reais e a quantidade em estoque de "+getQuantidade() +  
-				" unidades e o valor total do estoque é de " + valorTotal() + " reais");
+		System.out.println("O Nome do produto: " + getProduto());
+		System.out.println("preço unitario = " + getPreco()+ " reais");
+        System.out.println(" quantidade em estoque : " + getQuantidade());  
+		System.out.println(" valor total do estoque = " + valorTotal() + " reais");
 	
 	}
 }
