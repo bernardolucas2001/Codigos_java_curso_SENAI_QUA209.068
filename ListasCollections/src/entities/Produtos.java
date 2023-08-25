@@ -4,6 +4,7 @@ public class Produtos implements Comparable<Produtos> {
 	private String nome;
 	private int quantidade;
 	private double preco;
+	
 	public String getNome() {
 		return nome;
 	}
@@ -19,15 +20,21 @@ public class Produtos implements Comparable<Produtos> {
 	public double getPreco() {
 		return preco;
 	}
-	public void setPreco(double preco) {
-		this.preco = preco;
+	public Produtos(String nome, int quantidade) {
+		super();
+		this.nome = nome;
+		this.quantidade = quantidade;
 	}
+
 	public Produtos(String nome, int quantidade, double preco) {
 		super();
 		this.nome = nome;
 		this.quantidade = quantidade;
 		this.preco = preco;
 	}
+	
+	
+
 	@Override
 	public String toString() {
 		return "Produtos [nome=" + nome + ", quantidade=" + quantidade + ", preco=" + preco + "]";

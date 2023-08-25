@@ -4,15 +4,16 @@ INDEX VERSION 1.131+C:\Users\Aluno Tarde\Desktop\Java\Codigos_java_curso_SENAI_Q
 3806395143.index
 811147442.index
 1662734512.index
-975007833.index
 2579834178.index
+975007833.index
 2108553356.index
 1866167541.index
-3477142858.index
+179582383.index
 1246627042.index
 1881050971.index
-179582383.index
+3477142858.index
 2784604451.index
+2367783050.index
 4117086876.index
 2125722497.index
 490256774.index
@@ -35,5 +36,3 @@ INDEX VERSION 1.131+C:\Users\Aluno Tarde\Desktop\Java\Codigos_java_curso_SENAI_Q
 151779145.index
 556151988.index
 1456898477.index
-964512884.index
-3080709796.index

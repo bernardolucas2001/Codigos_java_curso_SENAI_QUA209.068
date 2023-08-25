@@ -20,18 +20,14 @@ public class ProgramProduto {
 	    System.out.println("Digite a quantidade do primeiro produto:");
 	    int quantidade1 = scan.nextInt();
 	    
-	    System.out.println("Digite o preço primeiro produto:");
-		 double preco1 = scan.nextDouble();
-		
+	   
 		 
 		System.out.println("Digite nome segundo produto:");
 		 String nome2 = scan.next();
 		
-		 System.out.println("Digite a quantidade do segundo produto:");
-		 int quantidade2 = scan.nextInt();
+		System.out.println("Digite a quantidade do segundo produto:");
+		int quantidade2 = scan.nextInt();
 		 
-		 System.out.println("Digite o preço segundo produto:");
-		 double preco2 = scan.nextDouble();
 		
 		System.out.println("Digite nome do terceiro produto:");
 		String nome3 = scan.next();
@@ -39,12 +35,11 @@ public class ProgramProduto {
 		System.out.println("Digite a quantidade do terceiro produto:");
 	    int quantidade3 = scan.nextInt();
 	    
-	    System.out.println("Digite o preço do terceiro produto:");
-		double preco3 = scan.nextDouble();
+	    
 		
-		Produtos produto1 = new Produtos(nome1, quantidade1, preco1);
-		Produtos produto2 = new Produtos(nome2, quantidade2, preco2);
-		Produtos produto3 = new Produtos(nome3, quantidade3, preco3);
+		Produtos produto1 = new Produtos(nome1, quantidade1, 5.00);
+		Produtos produto2 = new Produtos(nome2, quantidade2, 10.50);
+		Produtos produto3 = new Produtos(nome3, quantidade3, 20.50);
 		
 		
 		
