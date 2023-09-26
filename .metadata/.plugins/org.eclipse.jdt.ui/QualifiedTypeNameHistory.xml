@@ -19,4 +19,9 @@
     <fullyQualifiedTypeName name="entities.Carro"/>
     <fullyQualifiedTypeName name="entities.Animal"/>
     <fullyQualifiedTypeName name="entities.Gato"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 </qualifiedTypeNameHistroy>
